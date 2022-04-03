@@ -13,10 +13,9 @@
 		<nav id=menu>
 			<ul>
 				<li><a href="index.jsp">Início</a></li>
-				<li><a href="grupos.jsp">Grupos</a>
-				<li>
-				<li><a href="rodadas.jsp">Rodadas</a></li>
-				<li><a href="tabela.jsp">Tabelas</a></li>
+				<li><a href="grupos.jsp">Gerar Grupos</a><li>
+				<li><a href="jogos.jsp">Gerar Jogos</a></li>
+				<li><a href="tabela.jsp">Tabela de Grupos</a></li>
 				<li><a href="datas.jsp">Datas</a></li>
 			</ul>
 		</nav>

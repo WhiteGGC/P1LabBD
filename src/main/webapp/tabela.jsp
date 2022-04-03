@@ -13,9 +13,9 @@
 	<nav id=menu>
 		<ul>
 			<li><a href="index.jsp">Início</a></li>
-			<li><a href="grupos.jsp">Grupos</a><li>
-			<li><a href="rodadas.jsp">Rodadas</a></li>
-			<li><a href="tabela.jsp">Tabelas</a></li>
+			<li><a href="grupos.jsp">Gerar Grupos</a><li>
+			<li><a href="jogos.jsp">Gerar Jogos</a></li>
+			<li><a href="tabela.jsp">Tabela de Grupos</a></li>
 			<li><a href="datas.jsp">Datas</a></li>
 		</ul>
 	</nav>
@@ -40,13 +40,13 @@
 			<table class=table_home>
 				<thead>
 					<tr>
-						<th align="left">Grupo A</th>
+						<th align="center">Grupo A</th>
 					</tr>
 				</thead>
 				<tbody>	
 				<c:forEach items="${grupoA}" var="g">
 					<tr>
-						<td><c:out value="${g.time.nomeTime }"></c:out></td>
+						<td align="center"><c:out value="${g.time.nomeTime }"></c:out></td>
 					</tr>
 				</c:forEach>
 				</tbody>
@@ -56,13 +56,13 @@
 			<table class=table_home>
 				<thead>
 					<tr>
-						<th align="left">Grupo B</th>
+						<th align="center">Grupo B</th>
 					</tr>
 				</thead>
 				<tbody>	
 				<c:forEach items="${grupoB}" var="g">
 					<tr>
-						<td><c:out value="${g.time.nomeTime }"></c:out></td>
+						<td align="center"><c:out value="${g.time.nomeTime }"></c:out></td>
 					</tr>
 				</c:forEach>
 				</tbody>
@@ -74,13 +74,13 @@
 			<table class=table_home>
 				<thead>
 					<tr>
-						<th align="left">Grupo C</th>
+						<th align="center">Grupo C</th>
 					</tr>
 				</thead>
 				<tbody>	
 				<c:forEach items="${grupoC}" var="g">
 					<tr>
-						<td><c:out value="${g.time.nomeTime }"></c:out></td>
+						<td align="center"><c:out value="${g.time.nomeTime }"></c:out></td>
 					</tr>
 				</c:forEach>
 				</tbody>
@@ -90,13 +90,13 @@
 			<table class=table_home>
 				<thead>
 					<tr>
-						<th align="left">Grupo D</th>
+						<th align="center">Grupo D</th>
 					</tr>
 				</thead>
 				<tbody>	
 				<c:forEach items="${grupoD}" var="g">
 					<tr>
-						<td><c:out value="${g.time.nomeTime }"></c:out></td>
+						<td align="center"><c:out value="${g.time.nomeTime }"></c:out></td>
 					</tr>
 				</c:forEach>
 				</tbody>

@@ -13,10 +13,9 @@
 		<nav id=menu>
 			<ul>
 				<li><a href="index.jsp">Início</a></li>
-				<li><a href="grupos.jsp">Grupos</a>
-				<li>
-				<li><a href="rodadas.jsp">Rodadas</a></li>
-				<li><a href="tabela.jsp">Tabelas</a></li>
+				<li><a href="grupos.jsp">Gerar Grupos</a><li>
+				<li><a href="jogos.jsp">Gerar Jogos</a></li>
+				<li><a href="tabela.jsp">Tabela de Grupos</a></li>
 				<li><a href="datas.jsp">Datas</a></li>
 			</ul>
 		</nav>
@@ -27,9 +26,9 @@
 		<h1 class=texto>Campeonato Paulista</h1>
 		<h3 class=tarefa>Gerar as rodadas com os jogos</h3>
 		<div align="center">
-			<form action="rodada" method="post">
-				<input type="submit" id=gerar_rodada name=gerar_rodada
-					value="Gerar Rodadas">
+			<form action="jogos" method="post">
+				<input type="submit" id=gerar_jogos name=gerar_jogos
+					value="Gerar Jogos">
 			</form>
 		</div>
 		<div align="center">

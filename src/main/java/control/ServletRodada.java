@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import persistence.GenericDao;
 import persistence.JogosDao;
 
-@WebServlet("/rodada")
+@WebServlet("/jogos")
 public class ServletRodada extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -33,7 +33,7 @@ public class ServletRodada extends HttpServlet {
 		}catch(SQLException | ClassNotFoundException e) {
 			erro = e.getMessage();
 		}finally {
-			RequestDispatcher rd = request.getRequestDispatcher("rodadas.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("jogos.jsp");
 			request.setAttribute("saida", saida);
 			request.setAttribute("erro", erro);
 			rd.forward(request, response);
